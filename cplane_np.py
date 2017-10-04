@@ -14,6 +14,22 @@ import numpy as np
 import pandas as pd
 
 class ArrayComplexPlane(AbsComplexPlane):
+    """Class containing a complex grid equipped with methods designed to easily edit grid values simultaneously
+
+    Args:
+        xmin (float): the grid's min real value
+        xmax (float): the grid's max real value
+        xlen   (int): the number of points spanning [xmin, xmax]
+        ymin (float): the grid's min imag value
+        ymax (float): the grid's max imag value
+        ylen   (int): the number of points spanning [ymin, ymax]
+
+    Attributes:
+        plane (:obj:`list` of :obj:`list` of :obj:`complex`): A 2D list representing the current state of the
+            complex grid (see __create_grid)
+        fs (:obj:`list` of :obj:`function`): A list of all functions that have been applied to the plane since
+            the latest refresh
+    """
     def __init__(self, xmin, xmax, xlen, ymin, ymax, ylen):
         self.xmin  = xmin
         self.xmax  = xmax
