@@ -1,8 +1,14 @@
 # CS510 CW 6
 
-**Author(s):** **CHANGEME**
+Julie Gardner-Hoag, Logan Gantner
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-YOURNAME)
+Student ID: 2299636, 2307470
+
+Email: gardnerh@chapman.edu, gantner@chapman.edu
+
+Course: CS510 Fall 2017
+
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-logan_julie.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-logan_julie)
 
 ## Specification
 
@@ -19,9 +25,7 @@
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
-
-**CHANGEME**
+This assignment taught us a lot about numpy and pandas. The biggest hurdle we had to get over was the issue of vectorizing our array and trying to apply our labels to it. We had to change our code to use pandas applymap method instead.
 
 ## Honor Pledge
 
@@ -32,4 +36,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Julie Gardner-Hoag, Logan Gantner
