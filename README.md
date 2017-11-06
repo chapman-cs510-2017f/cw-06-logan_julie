@@ -25,7 +25,7 @@ Course: CS510 Fall 2017
 
 ## Assessment
 
-This assignment taught us a lot about numpy and pandas. The biggest hurdle we had to get over was the issue of vectorizing our array and trying to apply our labels to it. We had to change our code to use pandas applymap method instead.
+This assignment taught us a lot about numpy and pandas. The biggest hurdle we had to get over was the issue of vectorizing our array and trying to apply our labels to it. We had to change our code to use pandas applymap method.
 
 ## Honor Pledge
 
